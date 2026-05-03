@@ -1,25 +1,33 @@
-# Happy Birthday Month Swapnil Ghavat
+# Swapnil Ghavat's Never-Ending World
 
-A cute static birthday website for Swapnil Ghavat's 29 May birthday month, built with HTML, CSS, and JavaScript. It is ready for GitHub Pages.
+A static personal website experience for Swapnil Ghavat's 29 May birthday month.
+It uses only HTML, CSS, and JavaScript, so it is ready for GitHub Pages.
 
-## Files
+## What is inside
 
-- `index.html` - page content and sections
-- `styles.css` - responsive pastel design
-- `script.js` - floating hearts/stars, animated letters, confetti, music toggle, Easter egg
+- Landing page with a warm intro and Start Experience button
+- Random section navigation for an infinite-loop feeling
+- Meme Zone with random category-based memes
+- Ganapati Bappa blessing section with soft generated music
+- Family Guy/cartoon-style section
+- Pappa/family appreciation section
+- Luxury and lifestyle section
+- Car + Activa vehicle section
+- Hygienic guy jokes with an interactive hygiene scanner
+- Personal quiz/game
+- Hidden secret page via keyword, hidden click, or the `S` key
+- Cartoon character version of Swapnil
+- Mood button, music toggle, confetti, floating hearts/stars, and double-click surprises
 
-## Optional assets
+## Assets
 
-Photos are stored here:
+Photos are stored in:
 
 - `assets/photos/swapnil-1.jpg`
 - `assets/photos/swapnil-2.jpg`
 - `assets/photos/swapnil-3.jpg`
-
-Add background music here:
-
-- `assets/music/birthday-music.mp3`
+- `assets/ganpati.svg`
 
 ## Deploy
 
-Push these files to a GitHub repository, then enable GitHub Pages from the repository settings.
+Push this folder to GitHub and enable GitHub Pages from the repository settings.

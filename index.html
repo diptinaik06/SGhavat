@@ -3,169 +3,253 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday Month Swapnil Ghavat</title>
+  <title>Swapnil Ghavat's Never-Ending World</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="sparkle-layer" aria-hidden="true"></div>
+  <div class="float-layer" aria-hidden="true"></div>
 
-  <header class="site-header">
-    <a class="brand" href="#landing" aria-label="Birthday home">
-      <span class="brand-mark">S</span>
-      <span>Swapnil Ghavat</span>
-    </a>
+  <header class="app-header">
+    <button class="brand nav-random" type="button" data-target="landing" aria-label="Go home">
+      <span>S</span>
+      Swapnil World
+    </button>
 
-    <nav class="top-nav" aria-label="Birthday sections">
-      <a href="#gallery">Memories</a>
-      <a href="#letters">Letters</a>
-      <a href="#fun">Fun</a>
-      <a href="#surprise">Surprise</a>
+    <nav class="quick-nav" aria-label="Experience shortcuts">
+      <button type="button" data-target="meme">Memes</button>
+      <button type="button" data-target="ganpati">Bappa</button>
+      <button type="button" data-target="quiz">Quiz</button>
+      <button type="button" data-target="luxury">Luxury</button>
     </nav>
 
-    <button class="music-toggle" type="button" aria-pressed="false">
-      <span class="music-icon" aria-hidden="true">♪</span>
-      <span>Music</span>
-    </button>
+    <div class="header-actions">
+      <button class="pill-button mood-button" type="button">Mood?</button>
+      <button class="pill-button music-toggle" type="button" aria-pressed="false">Music</button>
+    </div>
   </header>
 
-  <main>
-    <section class="page landing-page" id="landing">
-      <div class="landing-copy">
-        <p class="eyebrow">29 May belongs to you</p>
-        <h1>Happy Birthday Month Swapnil Ghavat</h1>
+  <main class="experience-shell">
+    <section class="scene active landing-scene" id="landing" data-title="Landing">
+      <div class="hero-copy">
+        <p class="eyebrow">29 May • personal universe unlocked</p>
+        <h1>Welcome to Swapnil Ghavat's never-ending birthday world</h1>
         <p class="lead">
-          A tiny pastel corner of the internet made for your smile, memories,
-          jokes, and all the warm little moments that deserve confetti.
+          A soft, funny, emotional, slightly dramatic digital place made from
+          memes, blessings, luxury dreams, hygiene checks, family warmth, and
+          random surprises that refuse to end.
         </p>
-        <div class="hero-actions">
-          <a class="primary-button" href="#gallery">Open memories</a>
-          <a class="ghost-button" href="#surprise">Final surprise</a>
+        <div class="button-row">
+          <button class="primary-button" type="button" data-target="meme">Start Experience</button>
+          <button class="soft-button random-jump" type="button">Surprise me first 👀</button>
         </div>
       </div>
 
-      <div class="cake-scene" aria-label="Cartoon birthday cake with stars">
-        <div class="moon"></div>
-        <div class="cake">
-          <div class="candles">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="cake-top"></div>
-          <div class="cake-body">
-            <span class="sprinkle sprinkle-one"></span>
-            <span class="sprinkle sprinkle-two"></span>
-            <span class="sprinkle sprinkle-three"></span>
-          </div>
-          <div class="cake-plate"></div>
+      <div class="portrait-card">
+        <img src="assets/photos/swapnil-1.jpg" alt="Swapnil Ghavat posing beside a car">
+        <div class="portrait-note">stylish • hygienic • luxury-loving • loved</div>
+      </div>
+    </section>
+
+    <section class="scene meme-scene" id="meme" data-title="Meme Zone">
+      <div class="scene-heading">
+        <p class="eyebrow">meme zone</p>
+        <h2>Swapnil's personal meme vault</h2>
+      </div>
+      <article class="phone-card">
+        <div class="meme-card-top">
+          <span class="avatar">SG</span>
+          <strong>@swapnil_vibes</strong>
+          <span>• just now</span>
         </div>
-        <div class="mini-star star-one">★</div>
-        <div class="mini-star star-two">✦</div>
-        <div class="mini-heart heart-one">♥</div>
+        <div class="meme-display" aria-live="polite">
+          <p class="meme-category">Funny daily life</p>
+          <h3 class="meme-text">When Swapnil says he is leaving in 5 minutes, the calendar opens automatically.</h3>
+        </div>
+        <div class="meme-card-actions">♡  💬  ✈</div>
+      </article>
+      <div class="button-row">
+        <button class="primary-button next-meme" type="button">Next Meme 😂</button>
+        <button class="soft-button random-jump" type="button">Wait… one more thing 👀</button>
       </div>
     </section>
 
-    <section class="page gallery-page" id="gallery">
-      <div class="section-heading">
-        <p class="eyebrow">memory gallery</p>
-        <h2>Polaroids from the Swapnil Ghavat archives</h2>
-      </div>
-
-      <div class="polaroid-grid">
-        <article class="polaroid tilt-left">
-          <div class="photo-slot photo-one" data-photo="swapnil-1.jpg">
-            <span>Swapnil Ghavat</span>
+    <section class="scene ganpati-scene" id="ganpati" data-title="Ganapati Bappa">
+      <div class="blessing-grid">
+        <div class="ganpati-art" role="img" aria-label="Peaceful Ganapati Bappa illustration">
+          <div class="halo"></div>
+          <img src="assets/ganpati.svg" alt="Pastel Ganapati Bappa illustration">
+          <div class="ganesha">ॐ</div>
+          <div class="lotus">🪷</div>
+        </div>
+        <div>
+          <p class="eyebrow">ganapati bappa morya</p>
+          <h2>Blessings, peace, and protection for Swapnil</h2>
+          <p class="lead">
+            May Bappa keep your mind calm, your path clear, your family safe,
+            and your birthday month full of positivity, strength, and good news.
+          </p>
+          <div class="button-row">
+            <button class="primary-button music-toggle" type="button">Soft Music</button>
+            <button class="soft-button random-jump" type="button">Surprise me again</button>
           </div>
-          <p>sky, style, and birthday-month confidence</p>
-        </article>
-        <article class="polaroid tilt-right">
-          <div class="photo-slot photo-two" data-photo="swapnil-2.jpg">
-            <span>Swapnil Ghavat</span>
-          </div>
-          <p>galaxy-level main character energy</p>
-        </article>
-        <article class="polaroid tilt-left-soft">
-          <div class="photo-slot photo-three" data-photo="swapnil-3.jpg">
-            <span>Swapnil Ghavat</span>
-          </div>
-          <p>that smile deserves its own celebration</p>
-        </article>
+        </div>
       </div>
     </section>
 
-    <section class="page letters-page" id="letters">
-      <div class="section-heading">
-        <p class="eyebrow">letters</p>
-        <h2>Things Swapnil should hear before 29 May</h2>
+    <section class="scene cartoon-scene" id="cartoon" data-title="Cartoon Zone">
+      <div class="scene-heading">
+        <p class="eyebrow">family guy / cartoon zone</p>
+        <h2>Animated personality episode</h2>
       </div>
-
-      <div class="letter-board">
-        <article class="letter-card">
-          <span class="letter-stamp">01</span>
-          <p class="animated-line" data-text="Swapnil Ghavat, you make ordinary days feel a little more golden."></p>
-        </article>
-        <article class="letter-card">
-          <span class="letter-stamp">02</span>
-          <p class="animated-line" data-text="May 29 May bring you soft mornings, loud laughs, and beautiful surprises."></p>
-        </article>
-        <article class="letter-card">
-          <span class="letter-stamp">03</span>
-          <p class="animated-line" data-text="You are loved more than any message, meme, or group chat can explain."></p>
-        </article>
+      <div class="cartoon-stage">
+        <div class="cartoon-character bounce">
+          <span class="hair"></span>
+          <span class="glasses"></span>
+          <span class="smile"></span>
+        </div>
+        <div class="speech-bubble">Episode title: "The One Where Swapnil Looks Premium Even Casually."</div>
       </div>
+      <div class="caption-grid">
+        <p>Plot twist: hygiene is the superpower.</p>
+        <p>Side quest: inspect every brand label within 5 km.</p>
+        <p>Final boss: choosing between Activa reality and car dreams.</p>
+      </div>
+      <button class="soft-button random-jump" type="button">Don't go yet 😌</button>
     </section>
 
-    <section class="page fun-page" id="fun">
-      <div class="section-heading">
-        <p class="eyebrow">fun zone</p>
-        <h2>Memes, cartoons, and inside-joke energy</h2>
+    <section class="scene family-scene" id="family" data-title="Family">
+      <div class="scene-heading">
+        <p class="eyebrow">pappa cartoon / family corner</p>
+        <h2>Respect, roots, and the people who matter</h2>
       </div>
+      <div class="family-panel">
+        <div class="family-visual">
+          <span>👨‍👩‍👦</span>
+          <small>home team</small>
+        </div>
+        <div class="family-notes">
+          <p>For the care that shaped him.</p>
+          <p>For every quiet sacrifice behind the smile.</p>
+          <p>For the family pride that makes 29 May feel even warmer.</p>
+        </div>
+      </div>
+      <button class="soft-button random-jump" type="button">One more thing...</button>
+    </section>
 
-      <div class="fun-grid">
-        <article class="meme-card">
-          <div class="cartoon-face">
-            <span class="eye"></span>
-            <span class="eye"></span>
-            <span class="smile"></span>
+    <section class="scene luxury-scene" id="luxury" data-title="Luxury">
+      <div class="luxury-layout">
+        <img src="assets/photos/swapnil-2.jpg" alt="Swapnil Ghavat standing in a stylish setting">
+        <div>
+          <p class="eyebrow">luxury & lifestyle</p>
+          <h2>Future billionaire vibes</h2>
+          <div class="luxury-tags">
+            <span>Cars</span>
+            <span>Watches</span>
+            <span>Brands</span>
+            <span>Premium entry</span>
           </div>
-          <h3>When Swapnil says "5 minutes"</h3>
-          <p>Everyone starts calculating in birthday-month time.</p>
-        </article>
-        <article class="meme-card lavender-card">
-          <div class="chat-bubble">bestie alert!</div>
-          <h3>Official mood</h3>
-          <p>Overthinking? no. Over-celebrating? absolutely.</p>
-        </article>
-        <article class="meme-card blue-card">
-          <div class="tiny-crown">♕</div>
-          <h3>Birthday rule</h3>
-          <p>Swapnil Ghavat gets the biggest slice, the best seat, and no arguments.</p>
-        </article>
+          <p class="lead">Branded but still mine 😌. The vibe is simple: look clean, think big, arrive stylish.</p>
+          <button class="soft-button random-jump" type="button">Surprise me again</button>
+        </div>
       </div>
     </section>
 
-    <section class="page surprise-page" id="surprise">
-      <div class="surprise-panel">
-        <p class="eyebrow">the final page</p>
-        <h2>For Swapnil Ghavat, with all the softest wishes</h2>
+    <section class="scene vehicle-scene" id="vehicle" data-title="Vehicle">
+      <div class="scene-heading">
+        <p class="eyebrow">car + activa universe</p>
+        <h2>Activa for reality, car for dreams</h2>
+      </div>
+      <div class="vehicle-compare">
+        <article>
+          <div class="vehicle-icon">🛵</div>
+          <h3>Activa Mode</h3>
+          <p>Practical, fast, always somehow available when life says "jaldi nikal."</p>
+        </article>
+        <article>
+          <div class="vehicle-icon">🚘</div>
+          <h3>Car Dream Mode</h3>
+          <p>Music on, sunglasses ready, billionaire playlist loading.</p>
+        </article>
+      </div>
+      <button class="soft-button random-jump" type="button">Wait… one more thing 👀</button>
+    </section>
+
+    <section class="scene hygiene-scene" id="hygiene" data-title="Hygiene">
+      <div class="scene-heading">
+        <p class="eyebrow">hygienic guy section</p>
+        <h2>Cleanliness level: emotionally intimidating</h2>
+      </div>
+      <div class="hygiene-meter">
+        <div class="meter-fill"></div>
+        <p class="hygiene-result">Press the button. The sanitizer has entered the chat.</p>
+      </div>
+      <div class="button-row">
+        <button class="primary-button hygiene-check" type="button">Check hygiene level</button>
+        <button class="soft-button random-jump" type="button">Don't go yet 😌</button>
+      </div>
+    </section>
+
+    <section class="scene quiz-scene" id="quiz" data-title="Quiz">
+      <div class="scene-heading">
+        <p class="eyebrow">personal quiz</p>
+        <h2>How well do you know Swapnil?</h2>
+      </div>
+      <article class="quiz-card">
+        <p class="quiz-progress">Question 1 of 5</p>
+        <h3 class="quiz-question"></h3>
+        <div class="quiz-options"></div>
+        <p class="quiz-result" aria-live="polite"></p>
+      </article>
+      <button class="soft-button random-jump" type="button">One more thing...</button>
+    </section>
+
+    <section class="scene character-scene" id="character" data-title="Character">
+      <div class="scene-heading">
+        <p class="eyebrow">cartoon version</p>
+        <h2>Swapnil, but make it animated</h2>
+      </div>
+      <div class="character-card">
+        <div class="premium-character">
+          <span class="pc-hair"></span>
+          <span class="pc-shades"></span>
+          <span class="pc-watch"></span>
+          <span class="pc-sanitizer">clean</span>
+        </div>
+        <div>
+          <h3>Traits loaded</h3>
+          <p>Stylish posture, clean-guy aura, luxury dreams, family heart, and a birthday month glow.</p>
+        </div>
+      </div>
+      <button class="soft-button random-jump" type="button">Surprise me again</button>
+    </section>
+
+    <section class="scene secret-scene" id="secret" data-title="Secret">
+      <div class="secret-card">
+        <p class="eyebrow">secret page unlocked</p>
+        <h2>A note for Swapnil</h2>
         <p>
-          May this year feel kind to you. May your plans work out, your heart
-          feel lighter, and your people keep showing up with love, snacks, and
-          perfectly timed jokes.
+          Behind all the jokes, luxury captions, hygiene teasing, and birthday drama,
+          the real thing is simple: you matter. You are valued more than you probably
+          notice, and your presence makes ordinary days feel warmer.
         </p>
-        <button class="primary-button confetti-button" type="button">Release confetti</button>
+        <button class="primary-button random-jump" type="button">Keep going</button>
       </div>
     </section>
   </main>
 
-  <button class="easter-egg" type="button" aria-label="Hidden birthday surprise"></button>
+  <aside class="secret-panel" aria-label="Secret unlock panel">
+    <label for="secretCode">Secret keyword</label>
+    <div>
+      <input id="secretCode" type="text" placeholder="try swapnil">
+      <button class="pill-button unlock-secret" type="button">Unlock</button>
+    </div>
+  </aside>
 
-  <audio class="birthday-audio" loop preload="none">
-    <source src="birthday-music.mp3" type="audio/mpeg">
-  </audio>
+  <button class="hidden-dot" type="button" aria-label="Hidden surprise"></button>
+  <div class="toast" role="status" aria-live="polite"></div>
 
   <script src="script.js"></script>
 </body>
